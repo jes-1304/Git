@@ -113,5 +113,7 @@ git stash pop
     --Nos permite retornar el punto donde dejamos el trabajo pendiente    
 git stash drop
     --Nos permite retornar a un punto antes del guardado de formsa temporal
-        
+
+13]
+            
 """
