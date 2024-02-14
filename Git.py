@@ -77,7 +77,13 @@ git log --graph --pretty=oneline
 git log --graph --decorate --all -oneline
     --Nos muestra una linea + el Hash por versión
 
+git reflog
+    --Nos  muestra un detalle de todo lo realizado.
+
 9]
+Path: C:\Users\X_HernandJ03\.gitconfig
+    --Archivo que guarda los alias que se han configurado
+
 git config --global alias.<name> "Comando"
 git config --global alias.pretty "log --graph --pretty=oneline"
 git pretty
