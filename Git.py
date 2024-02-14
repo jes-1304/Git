@@ -46,7 +46,8 @@ notepad <name>.<py>
     --Crea un archivo notepad de tipo Python
 echo > <name>.<extensión>
     --Crea un archivo sin pedir que se guarde, mejor opción.
-    --Ahora sólo debe abrir el archivo desde las opciones del editor para que pase de solo lectura a escritura.        
+    --Ahora sólo debe abrir el archivo desde las opciones del editor para que pase de solo lectura a escritura.
+git "Opcional" >> <Name>.<extension>            
 
 del <name>.<extensión>
     --Borra el archivo indicado    
@@ -70,12 +71,19 @@ git log
     --Muestra el historial de los commit (Cambios Guardados) + su "Hash" con el que se almaceno    
     --Como podemos hacer una foto grafía
 
-git log --graph
+git <aliasnamel>     
+    --El alias equivale al código entre comillas
+
+    <tree>       = log --graph
     --Nos muestra el detalle en una rama
-git log --graph --pretty=oneline
-    --Nos muestra el detall en una sola linea
-git log --graph --decorate --all -oneline
+   	
+    <summary>    = log --graph --decorate --all --oneline
     --Nos muestra una linea + el Hash por versión
+
+    <all>        = log --graph --pretty=oneline    
+    --Nos muestra el detall en una sola linea
+    
+git log --graph --decorate --all -oneline
 
 git reflog
     --Nos  muestra un detalle de todo lo realizado.
@@ -115,5 +123,7 @@ git stash drop
     --Nos permite retornar a un punto antes del guardado de formsa temporal
 
 13]
-            
+git push
+    --Nos permite cargar en GitHub nuestro proyecto, Ojo, debe estar una Carpeta
+
 """
